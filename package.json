@@ -1,15 +1,17 @@
 {
   "name": "cc.object",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "title": "Object Processing And Validation Module",
   "description": "Library for processing and validating objects.",
   "license": "Apache-2.0",
-  "main": "object.js",
-  "pkxDependencies": [
-    "cc.type.0.1",
-    {
-      "package": "cc.validate.0.1",
-      "optional": true
-    }
-  ]
+  "pkx" : {
+    "main": "object.js",
+    "dependencies": [
+      "cc.type.0.2",
+      {
+        "package": "cc.validate.0.2",
+        "optional": true
+      }
+    ]
+  }
 }
